@@ -6,6 +6,6 @@ yk y........
 
 ## Todo
 
-[] make readme more elaborate (include a gf of how to install unpacked extention and stuff)
-[] add icon
-[] fix `manifest.json` (with all parameters like author blablabla)
+- [ ] make readme more elaborate (include a gf of how to install unpacked extention and stuff)
+- [ ] add icon
+- [ ] fix `manifest.json` (with all parameters like author blablabla)
