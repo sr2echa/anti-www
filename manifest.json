@@ -1,19 +1,36 @@
 {
-    "manifest_version": 2,
-    "name": "Auto Redirect to Native Domain",
-    "version": "1.0",
-    "description": "Automatically redirects www domains to their native domain and enforces HTTPS",
-    "icons": {
-      "48": "icon.png"
-    },
-    "permissions": [
-      "webRequest",
-      "webRequestBlocking",
-      "<all_urls>"
-    ],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+  "manifest_version": 2,
+  "name": "Auto Redirect to Native Domain",
+  "version": "1.0",
+  "description": "Automatically redirects www domains to their native domain and enforces HTTPS",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "webNavigation",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
     }
-  }
-  
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "homepage_url": "https://yourwebsite.com"  
+}
+
