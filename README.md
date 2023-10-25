@@ -113,11 +113,6 @@ We welcome contributions to this project. If you'd like to improve this browser 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
 
 ---
-
-**Disclaimer**: This browser extension is provided as-is and may not work with all websites or under all circumstances. Use it at your own discretion.
-
-For support or inquiries, please contact [your@email.com](mailto:your@email.com).
-
 Thank you for using the HTTPS Enforcement and Apex Domain Redirection Browser Extension!
 ```
 
