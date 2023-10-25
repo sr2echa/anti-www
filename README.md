@@ -1,4 +1,4 @@
-Certainly! Here's an updated version of the README file that includes instructions on how to install an unpacked extension in various browsers:
+
 
 ```markdown
 # HTTPS Enforcement and Apex Domain Redirection Browser Extension
